@@ -101,7 +101,7 @@ module.exports = {
 
     // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
     // by default `['--login']` will be used
-    shellArgs: ['/K', 'cd /d C:\\Azure'],
+    // shellArgs: ['/K', 'cd /d C:\\Azure'],
 
     // for environment variables
     env: {},
@@ -135,6 +135,7 @@ module.exports = {
   'hyper-solarized-dark',
   'hypercwd',
   "gitrocket",
+  "hyperterm-dibdabs",
   ],
 
   // in development, you can create a directory under
