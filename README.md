@@ -8,7 +8,7 @@ My windows productive configuration
 ref [打造高效的工作环境-SHELL篇](https://coolshell.cn/articles/19219.html)
 
 ## Hyper.js 跨平台命令栏终端
-now you can install Hyper plugin via $hyper i <<pluginname>>
+now you can install Hyper plugin via $hyper i #pluginname#
   
   some useful plugins:
   <pre><code>T
