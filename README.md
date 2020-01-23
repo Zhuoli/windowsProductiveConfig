@@ -1,5 +1,5 @@
-# windowsProductiveConfig
-My windows productive configuration
+# ProductiveConfig
+My productive configuration
 
 ## PSFolderSize - PowerShell module to list folder sizes
 
