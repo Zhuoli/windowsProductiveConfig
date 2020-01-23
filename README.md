@@ -11,7 +11,7 @@ ref [打造高效的工作环境-SHELL篇](https://coolshell.cn/articles/19219.h
 now you can install Hyper plugin via $hyper i #pluginname#
   
   some useful plugins:
-  <pre><code>T
+  <pre><code>
   hpyer i hyper-solarized-dark
   hyper i hypercwd
   hyper i gitrocket
