@@ -21,8 +21,8 @@ now you can install Hyper plugin via $hyper i #pluginname#
   </code></pre>
   
 ## zsh + ohmyzsh
-1: Install zsh and set it as default shell in .hyper.js
-2: Install [on-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
+1. Install zsh and set it as default shell in .hyper.js
+2. Install [on-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 3. Clone auto suggestion to custom zsh plugin repo: 
   git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 4. Update my zsh config [.zshrc](https://github.com/Zhuoli/windowsProductiveConfig/blob/master/.zshrc)
