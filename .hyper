@@ -12,7 +12,8 @@ module.exports = {
     fontSize: 16,
 
     // font family with optional fallbacks
-    fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    //fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily:  '"Roboto Mono for Powerline"',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -97,11 +98,11 @@ module.exports = {
     //
     // PowerShell on Windows
     // - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
-    shell: '',
+    shell: '/bin/zsh',
 
     // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
     // by default `['--login']` will be used
-    // shellArgs: ['/K', 'cd /d C:\\Azure'],
+    // shellArgs: ['/K', 'cd /d E:\\Azure'],
 
     // for environment variables
     env: {},
@@ -132,10 +133,12 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-  'hyper-solarized-dark',
-  'hypercwd',
-  "gitrocket",
-  "hyperterm-dibdabs",
+    'hyper-solarized-dark',
+    'hypercwd',
+    'gitrocket',
+    "hyper-statusline",
+    "hyperterm-dibdabs",
+    "hyper-drop-file"
   ],
 
   // in development, you can create a directory under
