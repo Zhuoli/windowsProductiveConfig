@@ -28,3 +28,4 @@ now you can install Hyper plugin via $hyper i #pluginname#
 4. Update my zsh config [.zshrc](https://github.com/Zhuoli/windowsProductiveConfig/blob/master/.zshrc)
 5. Update .hyper.js to use powerline font ->    fontFamily:  '"Roboto Mono for Powerline"',
 6. Install [powerline font](https://github.com/powerline/fonts) if not
+7. Check if you are using zsh shell or bash shell `ps -p $$`
