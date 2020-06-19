@@ -29,3 +29,13 @@ now you can install Hyper plugin via $hyper i #pluginname#
 5. Update .hyper.js to use powerline font ->    fontFamily:  '"Roboto Mono for Powerline"',
 6. Install [powerline font](https://github.com/powerline/fonts) if not
 7. Check if you are using zsh shell or bash shell `ps -p $$`
+
+
+## Use zsh in hyper.js
+module.exports = {
+  config: {
+    // rest of the config
+    shell: '/usr/local/bin/zsh',
+  }
+  // rest of the file
+}
